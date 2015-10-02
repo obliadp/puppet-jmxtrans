@@ -102,7 +102,8 @@ valid_statsd_settings  = ['bucketType']
         }
 <%   end # object['attrs'].keys.sort.each_with_index -%>
 <% end # @objects.each_with_index -%>
-      ]
+      ],
+      "numQueryThreads" : <%= @query_threads %>
     }
   ]
 }

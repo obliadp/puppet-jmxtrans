@@ -41,6 +41,7 @@ define jmxtrans::metrics(
     $jmx_alias            = undef,
     $jmx_username         = undef,
     $jmx_password         = undef,
+    $query_threads        = 2,
     $ganglia              = undef,
     $ganglia_group_name   = undef,
     $graphite             = undef,
